@@ -14,7 +14,7 @@ export default function Banner() {
           color: "white"
         }}
       >
-        "Empower Your Health, Energize Your Life"
+        &ldquo;Empower Your Health, Energize Your Life&rdquo; {/* Use escaped quotes */}
       </h1>
       <p
         className="text-base sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl text-white text-center absolute top-2/3 left-1/2 transform -translate-x-1/2"

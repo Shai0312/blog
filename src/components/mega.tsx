@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import React from "react";
 import BlogCard from "./blogcard";
 import { Merriweather } from "next/font/google";

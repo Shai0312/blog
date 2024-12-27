@@ -1,5 +1,6 @@
 "use client";
 import { Caveat } from "next/font/google";
+import Link from "next/link";
 import { useState } from "react";
 
 const myFont = Caveat({ subsets: ["latin"], weight: "400" });
@@ -42,24 +43,24 @@ export default function Navbar() {
       >
         <ul className="lg:flex justify-center items-center gap-10 py-2">
           <li className="max-lg:border-b max-lg:px-3 max-lg:py-3">
-            <a href="/" className="hover:text-green-600 font-semibold block text-[15px]">
+            <Link href="/" className="hover:text-green-600 font-semibold block text-[15px]">
               Home
-            </a>
+            </Link>
           </li>
           <li className="max-lg:border-b max-lg:px-3 max-lg:py-3">
-            <a href="/about" className="hover:text-green-600 font-semibold text-[15px] block">
+            <Link href="/about" className="hover:text-green-600 font-semibold text-[15px] block">
               About
-            </a>
+            </Link>
           </li>
           <li className="max-lg:border-b max-lg:px-3 max-lg:py-3">
-            <a href="/blog" className="hover:text-green-600 font-semibold text-[15px] block">
+            <Link href="/blog" className="hover:text-green-600 font-semibold text-[15px] block">
               Blog
-            </a>
+            </Link>
           </li>
           <li className="max-lg:border-b max-lg:px-3 max-lg:py-3">
-            <a href="/contact" className="hover:text-green-600 font-semibold text-[15px] block">
+            <Link href="/contact" className="hover:text-green-600 font-semibold text-[15px] block">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
